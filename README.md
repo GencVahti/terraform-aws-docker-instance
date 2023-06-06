@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<github-username>/docker-instance/aws"
+    source = "GencVahti/docker-instance/aws"
     key_name = "my_new_key"
 }
